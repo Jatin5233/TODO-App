@@ -1,0 +1,76 @@
+*{
+    font-family: "Bowlby One SC";
+}
+.bg{
+    display:flex;
+    height: 100vh;
+    width:100%;
+    background-color: #7CB9E8;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display:flex;
+    height:95%;
+    width:30%;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    margin:15px 0px;
+}
+div span{
+    font-size: 50px;
+}
+.add{
+    position: absolute;
+    bottom:6.25rem;
+    left:38%;
+}
+.add .work{
+    padding: 0px 10px 0px;
+}
+.delete{
+    position: absolute;
+    bottom:2.5rem;
+    left:38%; 
+}
+.delete .work{
+    padding: 0px 35px 0px;
+}
+.work{
+    font-size: 30px;
+    cursor: pointer;
+    background-color:#6CB4EE;
+    border-radius: 1rem;
+    color: aliceblue;
+    transition: 0.3s;
+    border: none;
+}
+.work:hover{
+    transform: scale(1.1);
+}
+.lists{
+    display: flex;
+    left: 2px;
+}
+.task{
+    height:50px;
+    width:80%;
+    font-size: 24px;
+}
+li{
+    font-size: 25px;
+}
+.check{
+    opacity: 0;
+}
+img{
+    position: absolute;
+    left:60rem;
+    bottom:16px;
+    height:250px;
+    border-radius: 1rem;
+}
